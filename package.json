@@ -1,80 +1,48 @@
 {
-  "_args": [
-    [
-      "github:arjanvlek/grunt-nexus-deployer#v.0.1.1-arjanvlek",
-      "/Users/arjan.vlek/development/personal/oxygen-updater/admin-portal/ui"
+    "name": "grunt-nexus-deployer",
+    "description": "Deploy artifacts with classifiers to release/snapshot maven repository.",
+    "version": "0.1.0",
+    "homepage": "https://github.com/skhatri/grunt-nexus-deployer",
+    "author": {
+        "name": "Suresh Khatri",
+        "email": "servlet2@msn.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:skhatri/grunt-nexus-deployer.git"
+    },
+    "bugs": {
+        "url": "https://github.com/skhatri/grunt-nexus-deployer/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/skhatri/grunt-nexus-deployer/blob/master/LICENSE-MIT"
+        }
+    ],
+    "engines": {
+        "node": ">= 0.10"
+    },
+    "scripts": {
+        "test": "grunt test"
+    },
+    "dependencies": {
+        "dateformat":"1.0.11",
+        "async": "0.9.0",
+        "ejs": "~2.3.1"
+    },
+    "devDependencies": {
+        "grunt-contrib-jshint": "~0.8.0",
+        "grunt-contrib-clean": "~0.5.0",
+        "grunt": ">=0.4.2",
+        "grunt-mocha-test": "~0.8.2",
+        "should":"~3.1.2",
+        "grunt-env":"*"
+    },
+    "peerDependencies": {
+        "grunt": ">=0.4.2"
+    },
+    "keywords": [
+        "nexus", "maven", "deployer"
     ]
-  ],
-  "_development": true,
-  "_from": "github:arjanvlek/grunt-nexus-deployer#v.0.1.1-arjanvlek",
-  "_id": "grunt-nexus-deployer@github:arjanvlek/grunt-nexus-deployer#422f358d7142e30398d61accf622a08c6aae8f26",
-  "_inBundle": false,
-  "_integrity": "",
-  "_location": "/grunt-nexus-deployer",
-  "_phantomChildren": {
-    "get-stdin": "4.0.1",
-    "meow": "3.7.0"
-  },
-  "_requested": {
-    "type": "git",
-    "raw": "github:arjanvlek/grunt-nexus-deployer#v.0.1.1-arjanvlek",
-    "rawSpec": "github:arjanvlek/grunt-nexus-deployer#v.0.1.1-arjanvlek",
-    "saveSpec": "github:arjanvlek/grunt-nexus-deployer#v.0.1.1-arjanvlek",
-    "fetchSpec": null,
-    "gitCommittish": "v.0.1.1-arjanvlek"
-  },
-  "_requiredBy": [
-    "#DEV:/"
-  ],
-  "_resolved": "github:arjanvlek/grunt-nexus-deployer#422f358d7142e30398d61accf622a08c6aae8f26",
-  "_spec": "github:arjanvlek/grunt-nexus-deployer#v.0.1.1-arjanvlek",
-  "_where": "/Users/arjan.vlek/development/personal/oxygen-updater/admin-portal/ui",
-  "author": {
-    "name": "Suresh Khatri",
-    "email": "servlet2@msn.com"
-  },
-  "bugs": {
-    "url": "https://github.com/skhatri/grunt-nexus-deployer/issues"
-  },
-  "dependencies": {
-    "async": "0.9.0",
-    "dateformat": "1.0.11",
-    "ejs": "~2.3.1"
-  },
-  "description": "Deploy artifacts with classifiers to release/snapshot maven repository.",
-  "devDependencies": {
-    "grunt": ">=0.4.2",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-jshint": "~0.8.0",
-    "grunt-env": "*",
-    "grunt-mocha-test": "~0.8.2",
-    "should": "~3.1.2"
-  },
-  "engines": {
-    "node": ">= 0.10"
-  },
-  "homepage": "https://github.com/skhatri/grunt-nexus-deployer",
-  "keywords": [
-    "nexus",
-    "maven",
-    "deployer"
-  ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/skhatri/grunt-nexus-deployer/blob/master/LICENSE-MIT"
-    }
-  ],
-  "name": "grunt-nexus-deployer",
-  "peerDependencies": {
-    "grunt": ">=0.4.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/skhatri/grunt-nexus-deployer.git"
-  },
-  "scripts": {
-    "test": "grunt test"
-  },
-  "version": "0.1.0"
 }
